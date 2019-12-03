@@ -15,6 +15,7 @@ setup(
     license='MIT',
     description='',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     keywords='bitcoin lightning-network lndhub lnurl',
     classifiers=[
         'Development Status :: 1 - Planning',
