@@ -120,7 +120,7 @@ class Wallet:
 
     def create_invoice(self, amount: int, description: str = '') -> Optional[Invoice]:
         """TODO: Invoice typing."""
-        return self._post('addinvoice', data={'amt': amount, 'description': description})
+        return self._post('addinvoice', data={'amt': amount, 'memo': description})
 
     def decode_invoice(self, bolt11_invoice: str) -> Invoice:
         """TODO: Invoice typing."""
